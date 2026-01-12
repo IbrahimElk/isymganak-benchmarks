@@ -1,8 +1,14 @@
-These problems were obtained from the [LGSynth91 benchmark](http://web.archive.org/web/20191103092508/https://ddd.fit.cvut.cz/prj/Benchmarks/). Primarily meant for logic synthesis and optimization.
+These problems were obtained from the
+[LGSynth91 benchmark](http://web.archive.org/web/20191103092508/https://ddd.fit.cvut.cz/prj/Benchmarks/). 
+Primarily meant for logic synthesis and optimization.
 
-The files in the original benchmark were in .blif format, blif2cnf.pl was used to transform them to DIMAC format. The source of this script is [here](https://web.archive.org/web/20050217212056/sat.inesc-id.pt/~jpms/scripts/bin/blif2cnf).
+The files in the original benchmark were in .blif format,
+blif2cnf.pl was used to transform them to DIMAC format.
+The source of this script is
+[here](https://web.archive.org/web/20050217212056/sat.inesc-id.pt/~jpms/scripts/bin/blif2cnf).
 
-Any CNF that was finished in less than 10s using the GANAK model counter has been removed, resulting in only the following files:
+Any CNF that was finished in less than 10s using the GANAK
+model counter has been removed, resulting in only the following files:
 
 * apex5.cnf
 * apex6.cnf
@@ -22,7 +28,8 @@ Any CNF that was finished in less than 10s using the GANAK model counter has bee
 * x1.cnf
 * x3.cnf
 
-The problem instances dataset is a collection of public benchmarks that is made available for research purposes by the respective authors.
+The problem instances dataset is a collection of public benchmarks
+that is made available for research purposes by the respective authors.
 
 ```bash
 $ wget https://ddd.fit.cvut.cz/www/prj/Benchmarks/MCNC.7z

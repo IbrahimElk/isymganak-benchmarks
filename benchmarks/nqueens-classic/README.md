@@ -1,6 +1,8 @@
-Problems generated using the code in https://sites.google.com/site/haioushen/search-algorithm/solvean-queensproblemusingsatsolver.
+Problems generated using the code in
+https://sites.google.com/site/haioushen/search-algorithm/solvean-queensproblemusingsatsolver.
 
-It is a classical encoding where the nqueens grid is encoded as for example n=4:
+It is a classical encoding where the nqueens grid
+is encoded as for example n=4:
 ```
 01 02 03 04
 05 06 07 08

@@ -1,6 +1,10 @@
-These problems were generated as described in 'A Study of Symmetry Breaking Predicates and Model Counting' by Wenxi Wang, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang, Kuldeep S. Meel and Sarfraz Khurshid:
+These problems were generated as described in
+'A Study of Symmetry Breaking Predicates and Model Counting'
+by Wenxi Wang, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang,
+Kuldeep S. Meel and Sarfraz Khurshid:
 
-Use the Alloy tool (https://alloytools.org/) with the following input program
+Use the Alloy tool (https://alloytools.org/) with 
+the following input program
 
 ```
 module nqueens -- name of the specification
@@ -24,7 +28,10 @@ all disj q, r: Queen | !SameRow[q, r] and !SameColumn[q, r] and !SameDiagonal[q,
 run NQueensProblem for 5 int, exactly 8 Queen
 ```
 
-Changing the last line to control the n (in nqueens) and the amount of bits to use to represent integers. E.g. 5 bits are sufficient for n=8 as 1 bit for the sign and 4 to represent [0-15].
+Changing the last line to control the n (in nqueens)
+and the amount of bits to use to represent integers.
+E.g. 5 bits are sufficient for n=8 as 1 bit for the
+sign and 4 to represent [0-15].
 
 
 

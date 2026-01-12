@@ -1,4 +1,5 @@
-These problems were created by compiling ProbLog programs (.pl) using cnf-generator.py
+These problems were created by compiling
+ProbLog programs (.pl) using cnf-generator.py
 
 ## cnf-generator usage
 python3 ./cnf-generator.py inputfile.pl outputfile.cnf
